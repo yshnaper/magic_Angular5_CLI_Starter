@@ -1,0 +1,91 @@
+
+.login {
+  display: flex;
+  background: #fff;
+  font-size: 1rem;
+  color: #000;
+  flex: 1 1 auto;
+  min-height: 100vh;
+
+  color: #3d3d3d;
+  h2 {
+    font-size: 2.5rem;
+  }
+  h4 {
+    color: #c8c8c8;
+    font-size: 1.125rem;
+    margin-bottom: 4rem;
+  }
+
+  .left-side {
+    padding: 4rem;
+    flex: 1 0 auto;
+    background-color: #fff;
+    .logo-access {
+      padding-bottom: 40px;
+      display: flex;
+      img {
+        display: block;
+      }
+    }
+    .form {
+      display: flex;
+      flex-direction: column;
+      .row-line {
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        &.forget {
+          align-self: flex-end;
+          flex-direction: row;
+          text-transform: capitalize;
+          padding: 10px 0 30px;
+          span {
+            padding-bottom: 1px ;
+            border-bottom: 1px solid transparent;
+            &:hover {
+              border-bottom: 1px solid;
+              cursor: pointer;
+            }
+          }
+
+        }
+        label {
+          font-weight: 500
+        }
+        input {
+          border: 0;
+          border-bottom: 1px solid #e1e1e1;
+          padding: .55rem .75rem;
+
+        }
+
+      }
+    }
+
+  }
+
+  .right-side {
+
+    height: 100vh;
+    flex: 4 0 auto;
+    background-color: #e61141;
+    display: flex;
+    justify-items: center;
+    align-self: center;
+  }
+
+}
+
+button {
+  display: flex;
+  color: #fff;
+  background-color: #e61141;
+  text-align: center;
+  padding: 1rem .55rem;
+  border: 0;
+  font-size: 1rem;
+  justify-content: center;
+  font-weight: 500;
+
+}

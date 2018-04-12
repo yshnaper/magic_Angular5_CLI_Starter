@@ -14,15 +14,15 @@
   h4 {
     color: #c8c8c8;
     font-size: 1.125rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2.2rem;
   }
 
   .left-side {
-    padding: 4rem;
     flex: 1 0 auto;
     background-color: #fff;
+    .left-side-inner { padding: 2.5rem 4rem;
     .logo-access {
-      padding-bottom: 40px;
+      padding-bottom: 2rem;
       display: flex;
       img {
         display: block;
@@ -39,9 +39,11 @@
           align-self: flex-end;
           flex-direction: row;
           text-transform: capitalize;
-          padding: 10px 0 30px;
+          padding: 0 0 .9rem;
+          position: relative;
+          top:-12px;
           span {
-            padding-bottom: 1px ;
+            padding-bottom: 1px;
             border-bottom: 1px solid transparent;
             &:hover {
               border-bottom: 1px solid;
@@ -62,17 +64,17 @@
 
       }
     }
-
+    }
   }
 
   .right-side {
 
-    height: 100vh;
+
     flex: 4 0 auto;
     background-color: #e61141;
     display: flex;
     justify-items: center;
-    align-self: center;
+
   }
 
 }

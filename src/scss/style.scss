@@ -8,16 +8,12 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 // Override Boostrap variables
 @import "bootstrap-variables";
-
 // Import Bootstrap source files
 @import "node_modules/bootstrap/scss/bootstrap";
-
 // Override core variables
 @import "core-variables";
-
 // Import core styles
 @import "core/core";
-
 // Custom styles
 @import "custom";
 
@@ -28,9 +24,19 @@ app-magic-customers {
     flex: 0 0 20%;
 
   }
-  .list-company {flex: 0 0 20%;}
+  .list-company {
+    flex: 0 0 20%;
+    .card-body {
+      padding: 0;
+    }
+  }
 
-  .card {height:100vh;}
+  .card {
+    //height: 100vh;
+  }
 }
 
-.box-size {min-width:0; padding: 0 15px; }
+.box-size {
+  min-width: 0;
+  padding: 0 7px;
+}

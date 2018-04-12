@@ -5,19 +5,24 @@ app-magic-customers {
     display: flex;
   }
 
-  .aside-search {
-    ul {
-      display: flex;
+
+
+}
+
+.aside-search {
+  display: flex;
+
+  ul {
+    margin:0;
+    display: flex;
+    list-style: none;
+    list-style-type: none;
+    flex-direction: column;
+    li {
       list-style: none;
       list-style-type: none;
-      flex-direction: column;
-      li {
-        list-style: none;
-        list-style-type: none;
-        display: flex;
-        flex-direction: column
-      }
+      display: flex;
+      flex-direction: column
     }
   }
-
 }
